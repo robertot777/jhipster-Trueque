@@ -1,0 +1,9 @@
+{
+    "jhipsterTruequeApp": {
+        "Estado": {
+            "null": "",
+            "OFERTA": "OFERTA",
+            "CONCRETADO": "CONCRETADO"
+        }
+    }
+}
