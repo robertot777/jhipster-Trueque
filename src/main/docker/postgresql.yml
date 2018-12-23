@@ -1,0 +1,11 @@
+version: '2'
+services:
+    jhipstertrueque-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/jhipsterTrueque/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=jhipsterTrueque
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
